@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class scene : MonoBehaviour
 {
-       public void SceneLoader(string angry)
+       public void SceneLoader(string levels)
     {
-        SceneManager.LoadScene("angry");
+        SceneManager.LoadScene("levels");
     }
 
 
