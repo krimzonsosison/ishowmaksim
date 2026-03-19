@@ -9,6 +9,8 @@ public class ciclecon : MonoBehaviour
     Rigidbody2D rb;
     [SerializeField] float speed;
 
+    public starmanager starman;
+
     void OnMouseDown()
     {
         print("Нажали на обьект");
@@ -24,6 +26,7 @@ public class ciclecon : MonoBehaviour
          float length = (posMouseDown - posMouseUp).sqrMagnitude;
 
          rb.AddForce(dir * speed, ForceMode2D.Impulse);
+         starman.ShowStars();
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
