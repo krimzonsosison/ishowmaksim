@@ -263,7 +263,6 @@ GameObject:
   - component: {fileID: 184026904}
   - component: {fileID: 184026906}
   - component: {fileID: 184026905}
-  - component: {fileID: 184026907}
   m_Layer: 5
   m_Name: Star3
   m_TagString: Untagged
@@ -328,22 +327,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184026903}
   m_CullTransparentMesh: 1
---- !u!114 &184026907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 184026903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29a5a012f7753a8499e8e2e544d4ddb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  star: {fileID: 0}
-  star2: {fileID: 0}
-  star3: {fileID: 184026903}
-  stars: 0
 --- !u!1 &550148533
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,7 +338,6 @@ GameObject:
   - component: {fileID: 550148534}
   - component: {fileID: 550148536}
   - component: {fileID: 550148535}
-  - component: {fileID: 550148537}
   m_Layer: 5
   m_Name: Star2
   m_TagString: Untagged
@@ -420,22 +402,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 550148533}
   m_CullTransparentMesh: 1
---- !u!114 &550148537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 550148533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29a5a012f7753a8499e8e2e544d4ddb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  star: {fileID: 0}
-  star2: {fileID: 550148533}
-  star3: {fileID: 0}
-  stars: 0
 --- !u!1 &956548692
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,7 +902,6 @@ GameObject:
   - component: {fileID: 1761392219}
   - component: {fileID: 1761392221}
   - component: {fileID: 1761392220}
-  - component: {fileID: 1761392222}
   m_Layer: 5
   m_Name: Star
   m_TagString: Untagged
@@ -1001,22 +966,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761392218}
   m_CullTransparentMesh: 1
---- !u!114 &1761392222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761392218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29a5a012f7753a8499e8e2e544d4ddb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  star: {fileID: 1761392218}
-  star2: {fileID: 0}
-  star3: {fileID: 0}
-  stars: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
