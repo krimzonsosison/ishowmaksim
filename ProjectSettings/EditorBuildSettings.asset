@@ -6,14 +6,29 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Menu.unity
+    path: Assets/Angry Scene/Menu1.unity
     guid: 466a8ac76577ce74780bbf353c54740b
   - enabled: 1
-    path: Assets/levels.unity
+    path: Assets/Angry Scene/levels.unity
     guid: b4663989ed59f1147a5a3e0c1602f610
   - enabled: 1
-    path: Assets/angry.unity
+    path: Assets/Angry Scene/angry.unity
     guid: 3fb8c564759e8ca449a1ee09914b9b5d
+  - enabled: 1
+    path: Assets/Angry Scene/lvl2.unity
+    guid: b2f190297b9a3ac4f93007d30b7b7535
+  - enabled: 1
+    path: Assets/Angry Scene/lvl3.unity
+    guid: 56d82ec10ee56b04490ade4da0538011
+  - enabled: 1
+    path: Assets/Angry Scene/lvl4.unity
+    guid: 7d2513c2e4f9ead4281d40c2cad6c7c2
+  - enabled: 1
+    path: Assets/Angry Scene/lvl5.unity
+    guid: 84e687f43f0faf945b4a5756d7bfe304
+  - enabled: 1
+    path: Assets/Angry Scene/levels2.unity
+    guid: e0b5215b765424e46b4f53facfbb8f47
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
